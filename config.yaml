@@ -4,3 +4,19 @@ data:
   blob_path: "data/hotdog_legs_dataset.zip"
   local_zip_path: "data/hotdog_legs_dataset.zip"
   extract_dir: "data/hotdog_or_legs"
+
+model:
+  arch: "resnet18"
+
+training:
+  image_size: 224
+  batch_size: 32
+  valid_pct: 0.2
+  random_seed: 42
+  epochs: 3
+  model_dir: "artifacts"
+  export_name: "hotdog_or_legs.pkl"
+
+mlflow:
+  tracking_uri: "mlruns"
+  experiment_name: "hotdog_or_legs"
