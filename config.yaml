@@ -1,0 +1,6 @@
+data:
+  source_type: "gcs"
+  bucket_name: "hotdog-or-legs"
+  blob_path: "data/hotdog_legs_dataset.zip"
+  local_zip_path: "data/hotdog_legs_dataset.zip"
+  extract_dir: "data/hotdog_or_legs"
