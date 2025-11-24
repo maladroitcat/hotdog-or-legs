@@ -62,7 +62,7 @@ st.write("Paste an image URL below and an *attempt* will be made to classify it 
 
 with st.spinner("Checking backend health..."):
     try:
-        resp = requests.get(HEALTH_URL, timeout=5)
+        resp = requests.get(HEALTH_URL, timeout=20)
         if resp.status_code == 200:
             st.success("Backend API is online!")
         else:
