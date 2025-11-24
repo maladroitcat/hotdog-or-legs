@@ -1,0 +1,11 @@
+fastai
+torch
+torchvision
+torchaudio
+mlflow
+fastapi
+uvicorn[standard]
+pydantic
+requests
+google-cloud-storage
+pyyaml
