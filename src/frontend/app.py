@@ -52,6 +52,7 @@ It was trained on:
 
 It will absolutely struggle with anything nuanced, artistic, weirdly lit, or cursed (it also hates wiki images specifically).  
 This entire project is **just for fun** so please calibrate expectations accordingly.
+I hope you relsih (pun intended once more, tysm) using this as much as I did making it.
 
 ---
 """
