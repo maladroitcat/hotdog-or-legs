@@ -22,4 +22,5 @@ ENV PYTHONPATH=/app
 
 EXPOSE 8000
 
+# Final command used for Cloud Run formatted by ChatGPT
 CMD ["sh", "-c", "uvicorn src.api.main:app --host 0.0.0.0 --port ${PORT:-8000}"]

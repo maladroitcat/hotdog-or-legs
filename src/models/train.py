@@ -50,7 +50,7 @@ def create_dataloaders(
     random_seed = cfg["random_seed"]
 
     set_seed(random_seed)
-
+    # Proper formatting for use of ImageDataLoaders with config file generated with help from ChatGPT.
     dls = ImageDataLoaders.from_folder(
         images_root,
         valid_pct=valid_pct,
@@ -114,6 +114,7 @@ def train() -> None:
 
         print(f"[train] Validation loss: {val_loss:.4f}, accuracy: {val_acc:.4f}")
 
+        # Logging with mlflow debugged with help of ChatGPT
         mlflow.log_metric("val_loss", val_loss)
         mlflow.log_metric("val_accuracy", val_acc)
 

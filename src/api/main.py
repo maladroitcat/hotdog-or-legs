@@ -21,7 +21,7 @@ app = FastAPI(
     version="0.1.0",
 )
 
-
+# Endpoint generated to help debugging by ChatGPT
 @app.get("/health")
 def health() -> Dict[str, str]:
     return {"status": "ok"}

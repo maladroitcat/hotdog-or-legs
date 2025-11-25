@@ -1,3 +1,4 @@
+# ChatGPT helped format the markdown and text sections of this script, including the generation of emojis.
 import requests
 import streamlit as st
 

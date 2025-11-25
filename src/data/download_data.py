@@ -23,6 +23,7 @@ def download_from_gcs(
         return local_file
 
     print(f"[data] Downloading gs://{bucket_name}/{blob_path} -> {local_file}")
+    # Lines 27-30 debugged with ChatGPT
     client = storage.Client()
     bucket = client.bucket(bucket_name)
     blob = bucket.blob(blob_path)
