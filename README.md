@@ -583,4 +583,4 @@ Portions of this project, such as code debugging and documentation, including th
 
 - `frontend/app.py` (e.g., lines 10–14): Streamlit page layout, including `st.set_page_config`, the title, and initial health check to the `/health` endpoint of the Cloud Run service.
 
-- `frontend/app.py` : Emoji generation and text formatting into markdown were performed by AI. The content of the text, however, is original. I am nothing if not a prolific goober so it will be a warm day in Anartica before I let AI take credit for my jokes.
+- `frontend/app.py` : Emoji generation and text formatting into markdown were performed by AI. The content of the text, however, is original. I am nothing if not a prolific goober so it will be a warm day in Antarctica before I let AI take credit for my jokes.
